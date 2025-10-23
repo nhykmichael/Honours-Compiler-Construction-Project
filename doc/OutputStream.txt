@@ -1,0 +1,221 @@
+Visiting--> s1 Position--> 0 Source--> PROG myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> P @ s1
+Visiting--> s2 Position--> 1 Source--> PROG myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> R @ s2
+Visiting--> s2 Position--> 2 Source--> PROG myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> O @ s2
+Visiting--> s2 Position--> 3 Source--> PROG myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> G @ s2
+Visiting--> s2 Position--> 4 Source--> PROG myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> KEYWORD Lexeme: PROG
+Visiting--> s1 Position--> 0 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> m @ s1
+Visiting--> s2 Position--> 1 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> y @ s2
+Visiting--> s2 Position--> 2 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> P @ s2
+Visiting--> s2 Position--> 3 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> r @ s2
+Visiting--> s2 Position--> 4 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> o @ s2
+Visiting--> s2 Position--> 5 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> g @ s2
+Visiting--> s2 Position--> 6 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> r @ s2
+Visiting--> s2 Position--> 7 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> a @ s2
+Visiting--> s2 Position--> 8 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> m @ s2
+Visiting--> s2 Position--> 9 Source--> myProgram: VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For-> :
+Classifying Transitions Found <=> ID Lexeme: myProgram
+Visiting--> s1 Position--> 0 Source--> : VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> : @ s1
+Visiting--> s1 Position--> 1 Source--> : VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> PUNCTUATION Lexeme: :
+Visiting--> s1 Position--> 0 Source--> VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> V @ s1
+Visiting--> s2 Position--> 1 Source--> VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> A @ s2
+Visiting--> s2 Position--> 2 Source--> VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> R @ s2
+Visiting--> s2 Position--> 3 Source--> VAR x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> KEYWORD Lexeme: VAR
+Visiting--> s1 Position--> 0 Source--> x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> x @ s1
+Visiting--> s2 Position--> 1 Source--> x = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> ID Lexeme: x
+Visiting--> s1 Position--> 0 Source--> = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> = @ s1
+Visiting--> s2 Position--> 1 Source--> = 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> OPERATOR Lexema: =
+Visiting--> s1 Position--> 0 Source--> 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> 1 @ s1
+Visiting--> s2 Position--> 1 Source--> 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> 0 @ s2
+Visiting--> s2 Position--> 2 Source--> 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> . @ s2
+Visiting--> s3 Position--> 3 Source--> 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> 5 @ s3
+Visiting--> s3 Position--> 4 Source--> 10.5; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For-> ;
+Classifying Transitions Found <=> DOUBLE LITERAL Lexeme: 10.5
+Visiting--> s1 Position--> 0 Source--> ; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> ; @ s1
+Visiting--> s1 Position--> 1 Source--> ; FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> PUNCTUATION Lexeme: ;
+Visiting--> s1 Position--> 0 Source--> FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> F @ s1
+Visiting--> s2 Position--> 1 Source--> FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> U @ s2
+Visiting--> s2 Position--> 2 Source--> FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> N @ s2
+Visiting--> s2 Position--> 3 Source--> FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> C @ s2
+Visiting--> s2 Position--> 4 Source--> FUNC add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> KEYWORD Lexeme: FUNC
+Visiting--> s1 Position--> 0 Source--> add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> a @ s1
+Visiting--> s2 Position--> 1 Source--> add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> d @ s2
+Visiting--> s2 Position--> 2 Source--> add(a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> d @ s2
+Visiting--> s2 Position--> 3 Source--> add(a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For-> (
+Classifying Transitions Found <=> ID Lexeme: add
+Visiting--> s1 Position--> 0 Source--> (a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> ( @ s1
+Visiting--> s1 Position--> 1 Source--> (a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For-> a
+Classifying Transitions Found <=> PUNCTUATION Lexeme: (
+Visiting--> s1 Position--> 0 Source--> a, b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> a @ s1
+Visiting--> s2 Position--> 1 Source--> a, b) { RETURN a + b; } 7pop, "Mike"
+No Transition For-> ,
+Classifying Transitions Found <=> ID Lexeme: a
+Visiting--> s1 Position--> 0 Source--> , b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> , @ s1
+Visiting--> s1 Position--> 1 Source--> , b) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> PUNCTUATION Lexeme: ,
+Visiting--> s1 Position--> 0 Source--> b) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> b @ s1
+Visiting--> s2 Position--> 1 Source--> b) { RETURN a + b; } 7pop, "Mike"
+No Transition For-> )
+Classifying Transitions Found <=> ID Lexeme: b
+Visiting--> s1 Position--> 0 Source--> ) { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> ) @ s1
+Visiting--> s1 Position--> 1 Source--> ) { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> PUNCTUATION Lexeme: )
+Visiting--> s1 Position--> 0 Source--> { RETURN a + b; } 7pop, "Mike"
+Transition Found For-> { @ s1
+Visiting--> s1 Position--> 1 Source--> { RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> PUNCTUATION Lexeme: {
+Visiting--> s1 Position--> 0 Source--> RETURN a + b; } 7pop, "Mike"
+Transition Found For-> R @ s1
+Visiting--> s2 Position--> 1 Source--> RETURN a + b; } 7pop, "Mike"
+Transition Found For-> E @ s2
+Visiting--> s2 Position--> 2 Source--> RETURN a + b; } 7pop, "Mike"
+Transition Found For-> T @ s2
+Visiting--> s2 Position--> 3 Source--> RETURN a + b; } 7pop, "Mike"
+Transition Found For-> U @ s2
+Visiting--> s2 Position--> 4 Source--> RETURN a + b; } 7pop, "Mike"
+Transition Found For-> R @ s2
+Visiting--> s2 Position--> 5 Source--> RETURN a + b; } 7pop, "Mike"
+Transition Found For-> N @ s2
+Visiting--> s2 Position--> 6 Source--> RETURN a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> KEYWORD Lexeme: RETURN
+Visiting--> s1 Position--> 0 Source--> a + b; } 7pop, "Mike"
+Transition Found For-> a @ s1
+Visiting--> s2 Position--> 1 Source--> a + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> ID Lexeme: a
+Visiting--> s1 Position--> 0 Source--> + b; } 7pop, "Mike"
+Transition Found For-> + @ s1
+Visiting--> s2 Position--> 1 Source--> + b; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> OPERATOR Lexema: +
+Visiting--> s1 Position--> 0 Source--> b; } 7pop, "Mike"
+Transition Found For-> b @ s1
+Visiting--> s2 Position--> 1 Source--> b; } 7pop, "Mike"
+No Transition For-> ;
+Classifying Transitions Found <=> ID Lexeme: b
+Visiting--> s1 Position--> 0 Source--> ; } 7pop, "Mike"
+Transition Found For-> ; @ s1
+Visiting--> s1 Position--> 1 Source--> ; } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> PUNCTUATION Lexeme: ;
+Visiting--> s1 Position--> 0 Source--> } 7pop, "Mike"
+Transition Found For-> } @ s1
+Visiting--> s1 Position--> 1 Source--> } 7pop, "Mike"
+No Transition For->
+Classifying Transitions Found <=> PUNCTUATION Lexeme: }
+Visiting--> s1 Position--> 0 Source--> 7pop, "Mike"
+Transition Found For-> 7 @ s1
+Visiting--> s2 Position--> 1 Source--> 7pop, "Mike"
+Transition Found For-> p @ s2
+Visiting--> s_error Position--> 2 Source--> 7pop, "Mike"
+Transition Found For-> o @ s_error
+Visiting--> s_error Position--> 3 Source--> 7pop, "Mike"
+Transition Found For-> p @ s_error
+Visiting--> s_error Position--> 4 Source--> 7pop, "Mike"
+No Transition For-> ,
+Classifying Transitions Found <=> UNKNOWN Lexeme: 7pop
+Visiting--> s1 Position--> 0 Source--> , "Mike"
+Transition Found For-> , @ s1
+Visiting--> s1 Position--> 1 Source--> , "Mike"
+No Transition For->
+Classifying Transitions Found <=> PUNCTUATION Lexeme: ,
+Visiting--> s1 Position--> 0 Source--> "Mike"
+Transition Found For-> " @ s1
+Visiting--> s2 Position--> 1 Source--> "Mike"
+Transition Found For-> M @ s2
+Visiting--> s2 Position--> 2 Source--> "Mike"
+Transition Found For-> i @ s2
+Visiting--> s2 Position--> 3 Source--> "Mike"
+Transition Found For-> k @ s2
+Visiting--> s2 Position--> 4 Source--> "Mike"
+Transition Found For-> e @ s2
+Visiting--> s2 Position--> 5 Source--> "Mike"
+Transition Found For-> " @ s2
+Visiting--> s3 Position--> 6 Source--> "Mike"
+No Transition For->
+Type: KEYWORD           Lexeme: PROG
+Type: IDENTIFIER        Lexeme: myProgram
+Type: PUNCTUATION       Lexeme: :
+Type: KEYWORD           Lexeme: VAR
+Type: IDENTIFIER        Lexeme: x
+Type: OPERATOR          Lexeme: =
+Type: DOUBLE_LITERAL    Lexeme: 10.5
+Type: PUNCTUATION       Lexeme: ;
+Type: KEYWORD           Lexeme: FUNC
+Type: IDENTIFIER        Lexeme: add
+Type: PUNCTUATION       Lexeme: (
+Type: IDENTIFIER        Lexeme: a
+Type: PUNCTUATION       Lexeme: ,
+Type: IDENTIFIER        Lexeme: b
+Type: PUNCTUATION       Lexeme: )
+Type: PUNCTUATION       Lexeme: {
+Type: KEYWORD           Lexeme: RETURN
+Type: IDENTIFIER        Lexeme: a
+Type: OPERATOR          Lexeme: +
+Type: IDENTIFIER        Lexeme: b
+Type: PUNCTUATION       Lexeme: ;
+Type: PUNCTUATION       Lexeme: }
+Type: UNKNOWN           Lexeme: 7pop
+Type: PUNCTUATION       Lexeme: ,
+Type: LITERAL           Lexeme: "Mike"
+Output has been saved to 'doc/Lexar.txt'
+
+Process returned 0 (0x0)   execution time : 0.217 s
+Press any key to continue.
